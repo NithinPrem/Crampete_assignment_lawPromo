@@ -1,3 +1,6 @@
+* {
+	font-family: "Ubuntu", sans-serif;
+}
 *,
 *::before,
 *::after {
@@ -6,16 +9,12 @@
 	box-sizing: border-box;
 	list-style: none;
 	text-rendering: optimizeSpeed;
-	/* font-family: "Ubuntu", sans-serif; */
 }
 
 html {
 	scroll-behavior: smooth;
 }
-/* 
-.fa {
-	font-family: "Font Awesome 5 Pro" !important;
-} */
+
 img,
 iframe,
 picture {
@@ -23,11 +22,16 @@ picture {
 	display: block;
 }
 .hero {
-	background: url("images/LawMain.jpg") no-repeat
+	background: url("images/LawMain2.png") no-repeat
 		center/cover;
 }
-.blue-shadow {
+.blue-shadow-main {
 	width: 100%;
+	height: 0.35rem;
+	background-color: #4992ff;
+}
+.blue-shadow {
+	width: 25%;
 	height: 0.35rem;
 	background-color: #4992ff;
 }
